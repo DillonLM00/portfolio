@@ -1,0 +1,67 @@
+QWidget#Footer
+{
+    background-color: rgb(34, 34, 34);
+}
+
+QWidget#line
+{
+    background-color: rgb(70, 70, 70);
+}
+
+QLabel#bottomTextLabel
+{
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+
+QPushButton
+{
+    border-radius: 2px;
+}
+
+QPushButton#backToTopButton
+{
+    icon: url(":/images/images/arrowUp.svg");
+}
+QPushButton#backToTopButton:hover
+{
+    margin-bottom: 8px;
+}
+
+QPushButton#youTubeButton
+{
+    icon: url(":/images/images/youtube_grey.svg");
+}
+QPushButton#youTubeButton:hover
+{
+    icon: url(":/images/images/youtube_white.svg");
+}
+
+QPushButton#gitHubButton
+{
+    icon: url(":/images/images/github_grey.svg");
+}
+QPushButton#gitHubButton:hover
+{
+    icon: url(":/images/images/github_white.svg");
+}
+
+QPushButton#itchButton
+{
+    icon: url(":/images/images/itch_io_grey.svg");
+}
+QPushButton#itchButton:hover
+{
+    icon: url(":/images/images/itch_io_white.svg");
+}
+
+QPushButton#linkedInButton
+{
+    icon: url(":/images/images/linked_in_grey.svg");
+}
+QPushButton#linkedInButton:hover
+{
+    icon: url(":/images/images/linked_in_white.svg");
+}

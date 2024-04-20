@@ -1,0 +1,60 @@
+QWidget#Projects
+{
+    background-color: rgb(54, 54, 54);
+}
+
+QLabel
+{
+    border: none;
+    font-family: "Ubuntu";
+}
+
+QLabel#headingLabel
+{
+    color: rgb(255, 139, 0);   
+    font-size: 40px;
+    font-weight: 700;
+}
+QWidget#firstLine
+{
+    background-color: rgb(255, 139, 0);
+    border-radius: 2px;
+}
+
+QLabel#textLabel
+{
+    color: rgb(255, 255, 255);   
+    font-size: 20px;
+    font-weight: 500;
+}
+
+QLabel[styleType="projectName"]
+{
+    color: rgb(255, 139, 0);
+    font-size: 28px;
+    font-weight: 700;
+}
+QLabel[styleType="projectDescribtion"]
+{
+    color: rgb(147, 147, 147);   
+    font-size: 18px;
+    font-weight: 400;
+}
+QLabel[styleType="projectDate"]
+{
+    color: rgb(255, 255, 255);   
+    font-size: 16px;
+    font-weight: 400;
+}
+
+QPushButton
+{
+    background-color: rgb(255, 139, 0);
+    border-radius: 8px;
+    font-family: "Ubuntu";
+    color: rgb(255, 255, 255);   
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 16px;
+    padding-right: 16px;
+}

@@ -1,0 +1,1661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Projects</class>
+ <widget class="QWidget" name="Projects">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1520</width>
+    <height>2983</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>16</number>
+   </property>
+   <property name="leftMargin">
+    <number>128</number>
+   </property>
+   <property name="topMargin">
+    <number>128</number>
+   </property>
+   <property name="rightMargin">
+    <number>128</number>
+   </property>
+   <property name="bottomMargin">
+    <number>128</number>
+   </property>
+   <item>
+    <widget class="QLabel" name="headingLabel">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>PROJECTS</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item alignment="Qt::AlignHCenter">
+    <widget class="QWidget" name="firstLine" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>32</width>
+       <height>4</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>256</width>
+       <height>4</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="textLabel">
+     <property name="text">
+      <string>Here are some of the projects I have worked on</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer_5">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>64</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QWidget" name="projectsWidget" native="true">
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <property name="horizontalSpacing">
+       <number>0</number>
+      </property>
+      <property name="verticalSpacing">
+       <number>96</number>
+      </property>
+      <item row="4" column="1">
+       <widget class="QWidget" name="contentWidget_5" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="0,1">
+         <property name="spacing">
+          <number>64</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QWidget" name="projectPictureLabel_5" native="true">
+           <layout class="QVBoxLayout" name="verticalLayout_12">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="pictureLabel_5">
+              <property name="minimumSize">
+               <size>
+                <width>560</width>
+                <height>315</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>560</width>
+                <height>315</height>
+               </size>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer_12">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>0</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="projectWidget_5" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>560</width>
+             <height>0</height>
+            </size>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_13">
+            <property name="spacing">
+             <number>16</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="projectNameLabel_5">
+              <property name="text">
+               <string>WickedTD</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+              </property>
+              <property name="styleType" stdset="0">
+               <string>projectName</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="textWidget_5" native="true">
+              <layout class="QVBoxLayout" name="verticalLayout_19">
+               <property name="spacing">
+                <number>8</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="dateLabel_5">
+                 <property name="text">
+                  <string>Feb 2023 - Feb 2023</string>
+                 </property>
+                 <property name="styleType" stdset="0">
+                  <string>projectDate</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="projectDescribtionLabel_5">
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Brackeys Game Jam 2023.1:&lt;br/&gt;&lt;br/&gt;Topic: An end is a new beginning&lt;br/&gt;Genre: Strategy&lt;br/&gt;Engine: Unity&lt;br/&gt;Team size: 6&lt;br/&gt;Project duration: 1 Woche&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="wordWrap">
+                  <bool>true</bool>
+                 </property>
+                 <property name="styleType" stdset="0">
+                  <string>projectDescribtion</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="buttonWidget_5" native="true">
+              <layout class="QHBoxLayout" name="horizontalLayout_11">
+               <property name="spacing">
+                <number>32</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>8</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QPushButton" name="pushButton_5_1">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>68</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>itch.io</string>
+                 </property>
+                 <property name="moving" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer_7">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer_7">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>0</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QWidget" name="contentWidget_1" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,1">
+         <property name="spacing">
+          <number>64</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QWidget" name="projectPictureLabel_1" native="true">
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="pictureLabel_1">
+              <property name="minimumSize">
+               <size>
+                <width>560</width>
+                <height>315</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>560</width>
+                <height>315</height>
+               </size>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer_4">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>0</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="projectWidget_1" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>560</width>
+             <height>0</height>
+            </size>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <property name="spacing">
+             <number>16</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="projectNameLabel_1">
+              <property name="text">
+               <string>Chroma Core</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+              </property>
+              <property name="styleType" stdset="0">
+               <string>projectName</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="textWidget_1" native="true">
+              <layout class="QVBoxLayout" name="verticalLayout_14">
+               <property name="spacing">
+                <number>8</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="dateLabel_1">
+                 <property name="text">
+                  <string>Mar 2023 - Jul 2023</string>
+                 </property>
+                 <property name="styleType" stdset="0">
+                  <string>projectDate</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="projectDescribtionLabel_1">
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Created as part of the Game Prototyping course in the summer semester 2023 at Kempten University of Applied Sciences.&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Topic: Game prototyping&lt;/p&gt;&lt;p&gt;Genre: 2D Platformer&lt;/p&gt;&lt;p&gt;Engine: Godot 4&lt;/p&gt;&lt;p&gt;Team size: 9&lt;/p&gt;&lt;p&gt;Project duration: 1 semester&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="wordWrap">
+                  <bool>true</bool>
+                 </property>
+                 <property name="styleType" stdset="0">
+                  <string>projectDescribtion</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="buttonWidget_1" native="true">
+              <layout class="QHBoxLayout" name="horizontalLayout_4">
+               <property name="spacing">
+                <number>32</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>8</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QPushButton" name="pushButton_1_2">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>68</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>YouTube</string>
+                 </property>
+                 <property name="moving" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_1_1">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>68</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>itch.io</string>
+                 </property>
+                 <property name="moving" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_1_3">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>68</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Documentation</string>
+                 </property>
+                 <property name="moving" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer_3">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>0</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QWidget" name="contentWidget_3" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="0,1">
+         <property name="spacing">
+          <number>64</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QWidget" name="projectPictureLabel_3" native="true">
+           <layout class="QVBoxLayout" name="verticalLayout_6">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="pictureLabel_3">
+              <property name="minimumSize">
+               <size>
+                <width>560</width>
+                <height>315</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>560</width>
+                <height>315</height>
+               </size>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer_10">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>0</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="projectWidget_3" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>560</width>
+             <height>0</height>
+            </size>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_7">
+            <property name="spacing">
+             <number>16</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="projectNameLabel_3">
+              <property name="text">
+               <string>Slime Tempest - Sounddesign and soundproduction</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+              </property>
+              <property name="wordWrap">
+               <bool>true</bool>
+              </property>
+              <property name="styleType" stdset="0">
+               <string>projectName</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="textWidget_3" native="true">
+              <layout class="QVBoxLayout" name="verticalLayout_16">
+               <property name="spacing">
+                <number>8</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="dateLabel_3">
+                 <property name="text">
+                  <string>Oct 2023 - Jan 2024</string>
+                 </property>
+                 <property name="styleType" stdset="0">
+                  <string>projectDate</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="projectDescribtionLabel_3">
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The project was created as part of the course Sound Design and Sound Production for Games in the winter semester 2023/24 at Kempten University of Applied Sciences. The sound design was created for the game Slime Tempest, which was provided.&lt;/p&gt;&lt;p&gt;The sounds were recorded with the Zoom H4n Pro Recorder and processed in the audio workstation Waveform from Tracktion. Finally, they were implemented in the audio middleware Wwise from Audiokinetic.&lt;/p&gt;&lt;p&gt;Soundconcept:&lt;br/&gt;- Genre: 2D Sidescroller building strategy game&lt;br/&gt;- Medieval setting&lt;br/&gt;- World is invaded by slimes&lt;br/&gt;- Threatening atmosphere&lt;br/&gt;- Sounds should sound realistic and match the visual style&lt;br/&gt;- Variation of sounds, as there are not very many different ones&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="wordWrap">
+                  <bool>true</bool>
+                 </property>
+                 <property name="styleType" stdset="0">
+                  <string>projectDescribtion</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="buttonWidget_3" native="true">
+              <layout class="QHBoxLayout" name="horizontalLayout_9">
+               <property name="spacing">
+                <number>32</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>8</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QPushButton" name="pushButton_3_1">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>68</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>YouTube</string>
+                 </property>
+                 <property name="moving" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_3_2">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>68</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Documentation</string>
+                 </property>
+                 <property name="moving" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer_5">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer_3">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>0</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QWidget" name="contentWidget_2" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,0">
+         <property name="spacing">
+          <number>64</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QWidget" name="projectWidget_2" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>560</width>
+             <height>0</height>
+            </size>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_5">
+            <property name="spacing">
+             <number>16</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="projectNameLabel_2">
+              <property name="text">
+               <string>Tuwas gegen Mudas</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+              </property>
+              <property name="styleType" stdset="0">
+               <string>projectName</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="textWidget_2" native="true">
+              <layout class="QVBoxLayout" name="verticalLayout_15">
+               <property name="spacing">
+                <number>8</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="dateLabel_2">
+                 <property name="text">
+                  <string>Aug 2022 - Jan 2023</string>
+                 </property>
+                 <property name="styleType" stdset="0">
+                  <string>projectDate</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="projectDescribtionLabel_2">
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As part of my internship semester, I worked on the game Tuwas vs Muda.&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Genre: Simulation, Educational, Strategy&lt;/p&gt;&lt;p&gt;Enigne: Unity&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="wordWrap">
+                  <bool>true</bool>
+                 </property>
+                 <property name="styleType" stdset="0">
+                  <string>projectDescribtion</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="buttonWidget_2" native="true">
+              <layout class="QHBoxLayout" name="horizontalLayout_8">
+               <property name="spacing">
+                <number>32</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>8</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QPushButton" name="pushButton_2_1">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>68</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>YouTube</string>
+                 </property>
+                 <property name="moving" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_2_2">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>68</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>itch.io</string>
+                 </property>
+                 <property name="moving" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_2_3">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>68</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Documentation</string>
+                 </property>
+                 <property name="moving" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer_4">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer_2">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>0</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="projectPictureLabel_2" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>560</width>
+             <height>315</height>
+            </size>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="pictureLabel_2">
+              <property name="minimumSize">
+               <size>
+                <width>560</width>
+                <height>315</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>560</width>
+                <height>315</height>
+               </size>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer_9">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>0</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QWidget" name="contentWidget_6" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="1,0">
+         <property name="spacing">
+          <number>64</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QWidget" name="projectWidget_6" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>560</width>
+             <height>0</height>
+            </size>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_20">
+            <property name="spacing">
+             <number>16</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="projectNameLabel_6">
+              <property name="text">
+               <string>Lurkers in the Nightlight</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+              </property>
+              <property name="styleType" stdset="0">
+               <string>projectName</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="textWidget_6" native="true">
+              <layout class="QVBoxLayout" name="verticalLayout_21">
+               <property name="spacing">
+                <number>8</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="dateLabel_6">
+                 <property name="text">
+                  <string>Feb 2022 - Feb 2022</string>
+                 </property>
+                 <property name="styleType" stdset="0">
+                  <string>projectDate</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="projectDescribtionLabel_6">
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Brackeys Game Jam 2022.1:&lt;br/&gt;&lt;br/&gt;Topic: It is not real&lt;br/&gt;Genre: Horror&lt;br/&gt;Engine: Unity&lt;br/&gt;Team size: 8&lt;br/&gt;Project duration: 1 Woche&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="wordWrap">
+                  <bool>true</bool>
+                 </property>
+                 <property name="styleType" stdset="0">
+                  <string>projectDescribtion</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="buttonWidget_6" native="true">
+              <layout class="QHBoxLayout" name="horizontalLayout_12">
+               <property name="spacing">
+                <number>32</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>8</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QPushButton" name="pushButton_6_1">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>68</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>YouTube</string>
+                 </property>
+                 <property name="moving" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_6_2">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>68</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>itch.io</string>
+                 </property>
+                 <property name="moving" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer_8">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer_8">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>0</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="projectPictureLabel_7" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>560</width>
+             <height>315</height>
+            </size>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_22">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="pictureLabel_6">
+              <property name="minimumSize">
+               <size>
+                <width>560</width>
+                <height>315</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>560</width>
+                <height>315</height>
+               </size>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer_13">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>0</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="0" rowspan="6">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="3" column="1">
+       <widget class="QWidget" name="contentWidget_4" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="1,0">
+         <property name="spacing">
+          <number>64</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QWidget" name="projectWidget_4" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>560</width>
+             <height>0</height>
+            </size>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_10">
+            <property name="spacing">
+             <number>16</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="projectNameLabel_4">
+              <property name="text">
+               <string>God Damn Hell - Modeling and animation</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+              </property>
+              <property name="wordWrap">
+               <bool>true</bool>
+              </property>
+              <property name="styleType" stdset="0">
+               <string>projectName</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="textWidget_4" native="true">
+              <layout class="QVBoxLayout" name="verticalLayout_18">
+               <property name="spacing">
+                <number>8</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="dateLabel_4">
+                 <property name="text">
+                  <string>Oct 2021 - Jan 2022</string>
+                 </property>
+                 <property name="styleType" stdset="0">
+                  <string>projectDate</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="projectDescribtionLabel_4">
+                 <property name="text">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Created as part of the GE Lab 2022 at Kempten University of Applied Sciences.&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Topic: Fast and wild&lt;/p&gt;&lt;p&gt;Genre: Roque-Like&lt;/p&gt;&lt;p&gt;Engine: Unity&lt;/p&gt;&lt;p&gt;Team size: 5&lt;/p&gt;&lt;p&gt;Project duration: 1 semester&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="wordWrap">
+                  <bool>true</bool>
+                 </property>
+                 <property name="styleType" stdset="0">
+                  <string>projectDescribtion</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="buttonWidget_4" native="true">
+              <layout class="QHBoxLayout" name="horizontalLayout_10">
+               <property name="spacing">
+                <number>32</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>8</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QPushButton" name="pushButton_4_1">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>68</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>YouTube</string>
+                 </property>
+                 <property name="moving" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_4_2">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>68</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Website</string>
+                 </property>
+                 <property name="moving" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_4_3">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>68</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Documentation</string>
+                 </property>
+                 <property name="moving" stdset="0">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer_6">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer_6">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>0</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="projectPictureLabel_4" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>560</width>
+             <height>315</height>
+            </size>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_11">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="pictureLabel_4">
+              <property name="minimumSize">
+               <size>
+                <width>560</width>
+                <height>315</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>560</width>
+                <height>315</height>
+               </size>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Box</enum>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer_11">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>0</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="2" rowspan="6">
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

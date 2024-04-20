@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/arrowUp.svg</file>
+        <file>images/chromaCore.png</file>
+        <file>images/github.svg</file>
+        <file>images/github_grey.svg</file>
+        <file>images/github_white.svg</file>
+        <file>images/GodDamnHell.png</file>
+        <file>images/itch_io.svg</file>
+        <file>images/itch_io_grey.svg</file>
+        <file>images/itch_io_white.svg</file>
+        <file>images/linked_in.svg</file>
+        <file>images/linked_in_grey.svg</file>
+        <file>images/linked_in_white.svg</file>
+        <file>images/LurkerInTheNightlight.png</file>
+        <file>images/Profilbild_Circle_64x64.png</file>
+        <file>images/SlimeTempest.png</file>
+        <file>images/triangleBackground.png</file>
+        <file>images/TuwasGegenMuda.png</file>
+        <file>images/WickedTD.png</file>
+        <file>images/youtube.svg</file>
+        <file>images/youtube_grey.svg</file>
+        <file>images/youtube_white.svg</file>
+    </qresource>
+    <qresource prefix="/stylesheets">
+        <file>stylesheets/aboutme.qss</file>
+        <file>stylesheets/footer.qss</file>
+        <file>stylesheets/header.qss</file>
+        <file>stylesheets/hero.qss</file>
+        <file>stylesheets/projects.qss</file>
+    </qresource>
+</RCC>

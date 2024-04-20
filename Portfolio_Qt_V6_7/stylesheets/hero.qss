@@ -1,0 +1,72 @@
+QWidget#Hero
+{
+    border: none;
+    background-image: url(":/images/images/triangleBackground.png");
+}
+
+QLabel
+{
+    font-family: "Ubuntu";
+}
+QLabel#headingLabel
+{
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+}
+QLabel#textLabel
+{
+    color: rgb(51, 51, 51);
+    font-size: 22px;
+}
+
+QPushButton#projectsButton
+{
+    background-color: rgb(255, 139, 0);
+    border-radius: 8px;
+
+    font-family: "Ubuntu";
+    font-size: 20px;
+}
+
+QWidget#buttonWidget
+{
+    background-color: rgb(34, 34, 34);
+}
+
+QWidget#buttonWidget QPushButton
+{
+    border-radius: 8px;
+}
+
+QPushButton#linkedInButton
+{   
+    icon: url(":/images/images/linked_in.svg");
+}
+QPushButton#linkedInButton:hover
+{
+    background-color: rgb(255, 255, 255);
+}
+QPushButton#itchButton
+{
+    icon: url(":/images/images/itch_io.svg");
+}
+QPushButton#itchButton:hover
+{
+    background-color: rgb(255, 255, 255);
+}
+QPushButton#gitHubButton
+{
+    icon: url(":/images/images/github.svg");
+}
+QPushButton#gitHubButton:hover
+{
+    background-color: rgb(255, 255, 255);
+}
+QPushButton#youTubeButton
+{
+    icon: url(":/images/images/youtube.svg");
+}
+QPushButton#youTubeButton:hover
+{
+    background-color: rgb(255, 255, 255);
+}
