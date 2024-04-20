@@ -35,7 +35,11 @@ namespace {
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSScrollViewENDCLASS_t {};
 constexpr auto qt_meta_stringdata_CLASSScrollViewENDCLASS = QtMocHelpers::stringData(
-    "ScrollView"
+    "ScrollView",
+    "MovePageToTop",
+    "",
+    "MovePageToAboutMe",
+    "MovePageToProjects"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -48,12 +52,22 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSScrollViewENDCLASS[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       0,    0, // methods
+       3,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
        0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags, initial metatype offsets
+       1,    0,   32,    2, 0x0a,    1 /* Public */,
+       3,    0,   33,    2, 0x0a,    2 /* Public */,
+       4,    0,   34,    2, 0x0a,    3 /* Public */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -66,16 +80,29 @@ Q_CONSTINIT const QMetaObject ScrollView::staticMetaObject = { {
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSScrollViewENDCLASS_t,
         // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<ScrollView, std::true_type>
+        QtPrivate::TypeAndForceComplete<ScrollView, std::true_type>,
+        // method 'MovePageToTop'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'MovePageToAboutMe'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'MovePageToProjects'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
 } };
 
 void ScrollView::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
-    (void)_o;
-    (void)_id;
-    (void)_c;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<ScrollView *>(_o);
+        (void)_t;
+        switch (_id) {
+        case 0: _t->MovePageToTop(); break;
+        case 1: _t->MovePageToAboutMe(); break;
+        case 2: _t->MovePageToProjects(); break;
+        default: ;
+        }
+    }
     (void)_a;
 }
 
@@ -95,6 +122,17 @@ void *ScrollView::qt_metacast(const char *_clname)
 int ScrollView::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 3)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 3;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 3)
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+        _id -= 3;
+    }
     return _id;
 }
 QT_WARNING_POP

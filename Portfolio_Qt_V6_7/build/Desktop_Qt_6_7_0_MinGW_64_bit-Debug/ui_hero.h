@@ -39,21 +39,19 @@ public:
     QSpacerItem *verticalSpacer_5;
     QLabel *textLabel;
     QSpacerItem *verticalSpacer_6;
-    QPushButton *projectsButton;
-    QSpacerItem *verticalSpacer_3;
     QSpacerItem *verticalSpacer_8;
 
     void setupUi(QWidget *Hero)
     {
         if (Hero->objectName().isEmpty())
             Hero->setObjectName("Hero");
-        Hero->resize(828, 739);
-        Hero->setMinimumSize(QSize(0, 739));
+        Hero->resize(858, 800);
+        Hero->setMinimumSize(QSize(0, 800));
         verticalLayout = new QVBoxLayout(Hero);
         verticalLayout->setSpacing(0);
         verticalLayout->setObjectName("verticalLayout");
-        verticalLayout->setContentsMargins(0, 0, 0, 0);
-        verticalSpacer_7 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalLayout->setContentsMargins(0, 0, 0, 64);
+        verticalSpacer_7 = new QSpacerItem(20, 0, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
 
         verticalLayout->addItem(verticalSpacer_7);
 
@@ -125,25 +123,14 @@ public:
 
         textLabel = new QLabel(content);
         textLabel->setObjectName("textLabel");
-        textLabel->setMinimumSize(QSize(0, 0));
+        textLabel->setMinimumSize(QSize(0, 88));
         textLabel->setAlignment(Qt::AlignCenter);
 
         verticalLayout_3->addWidget(textLabel);
 
-        verticalSpacer_6 = new QSpacerItem(20, 64, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Fixed);
+        verticalSpacer_6 = new QSpacerItem(20, 0, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
 
         verticalLayout_3->addItem(verticalSpacer_6);
-
-        projectsButton = new QPushButton(content);
-        projectsButton->setObjectName("projectsButton");
-        projectsButton->setMinimumSize(QSize(325, 76));
-        projectsButton->setMaximumSize(QSize(325, 76));
-
-        verticalLayout_3->addWidget(projectsButton, 0, Qt::AlignHCenter);
-
-        verticalSpacer_3 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
-
-        verticalLayout_3->addItem(verticalSpacer_3);
 
 
         horizontalLayout->addWidget(content);
@@ -152,7 +139,7 @@ public:
 
         verticalLayout->addWidget(widget);
 
-        verticalSpacer_8 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+        verticalSpacer_8 = new QSpacerItem(20, 0, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
 
         verticalLayout->addItem(verticalSpacer_8);
 
@@ -170,8 +157,7 @@ public:
         gitHubButton->setText(QString());
         youTubeButton->setText(QString());
         headingLabel->setText(QCoreApplication::translate("Hero", "HEY, I'M DILLON METZLER", nullptr));
-        textLabel->setText(QCoreApplication::translate("Hero", "<html><head/><body><p>A Result-Oriented Web Developer building and managing Websites and Web</p><p>Applications that leads to the success of the overall product</p></body></html>", nullptr));
-        projectsButton->setText(QCoreApplication::translate("Hero", "PROJECTS", nullptr));
+        textLabel->setText(QCoreApplication::translate("Hero", "<html><head/><body><p><span style=\" font-weight:700;\">I am driven by...</span></p><p>when I can face new challenges and develop myself through them</p><p>when good collaboration creates a genuine flow experience and a real feeling of togetherness<br/>.</p></body></html>", nullptr));
     } // retranslateUi
 
 };

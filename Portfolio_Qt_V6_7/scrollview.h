@@ -37,6 +37,8 @@ private:
     QPropertyAnimation* m_pageAnimation;
 
     void StartPageAnimation(int endValue);
+
+    void Upp();
 };
 
 #endif // SCROLLVIEW_H

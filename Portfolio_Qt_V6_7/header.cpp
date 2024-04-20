@@ -14,11 +14,18 @@ Header::Header(QWidget *parent)
     connect(ui->homeButton, &QPushButton::clicked, MainWindow::GetMainWindow(this), &MainWindow::OnHomeButtonClickedSignal);
     connect(ui->aboutButton, &QPushButton::clicked, MainWindow::GetMainWindow(this), &MainWindow::OnAboutButtonClickedSignal);
     connect(ui->projectsButton, &QPushButton::clicked, MainWindow::GetMainWindow(this), &MainWindow::OnProjectsButtonClickedSignal);
+
+    connect(MainWindow::GetMainWindow(this), &MainWindow::ResizeSignal, this, &Header::AdjustSize);
 }
 
 Header::~Header()
 {
     delete ui;
+}
+
+void Header::AdjustSize()
+{
+    this->resize(QSize(parentWidget()->width() - 16, this->height()));
 }
 
 

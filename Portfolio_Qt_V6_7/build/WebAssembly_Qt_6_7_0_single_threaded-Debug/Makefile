@@ -302,6 +302,7 @@ Makefile: ..\..\Portfolio_Qt_V6_7.pro C:\Qt\6.7.0\wasm_singlethread\mkspecs\wasm
 		C:\Qt\6.7.0\wasm_singlethread\mkspecs\common\wasm\wasm.conf \
 		C:\Qt\6.7.0\wasm_singlethread\mkspecs\wasm-emscripten\qmake.conf \
 		C:\Qt\6.7.0\wasm_singlethread\mkspecs\features\spec_post.prf \
+		.qmake.stash \
 		C:\Qt\6.7.0\wasm_singlethread\mkspecs\features\exclusive_builds.prf \
 		C:\Qt\6.7.0\wasm_singlethread\mkspecs\features\toolchain.prf \
 		C:\Qt\6.7.0\wasm_singlethread\mkspecs\features\default_pre.prf \
@@ -528,6 +529,7 @@ C:\Qt\6.7.0\wasm_singlethread\mkspecs\features\qt_config.prf:
 C:\Qt\6.7.0\wasm_singlethread\mkspecs\common\wasm\wasm.conf:
 C:\Qt\6.7.0\wasm_singlethread\mkspecs\wasm-emscripten\qmake.conf:
 C:\Qt\6.7.0\wasm_singlethread\mkspecs\features\spec_post.prf:
+.qmake.stash:
 C:\Qt\6.7.0\wasm_singlethread\mkspecs\features\exclusive_builds.prf:
 C:\Qt\6.7.0\wasm_singlethread\mkspecs\features\toolchain.prf:
 C:\Qt\6.7.0\wasm_singlethread\mkspecs\features\default_pre.prf:
@@ -635,10 +637,12 @@ compiler_rcc_clean:
 	-$(DEL_FILE) qrc_resources.cpp
 qrc_resources.cpp: ..\..\resources.qrc \
 		C:\Qt\6.7.0\mingw_64\bin\rcc.exe \
+		..\..\images\sliderDown_Hovered.svg \
 		..\..\images\itch_io_white.svg \
 		..\..\images\Profilbild_Circle_64x64.png \
 		..\..\images\linked_in_white.svg \
 		..\..\images\github_grey.svg \
+		..\..\images\sliderUp_Idle.svg \
 		..\..\images\chromaCore.png \
 		..\..\images\github.svg \
 		..\..\images\triangleBackground.png \
@@ -648,15 +652,18 @@ qrc_resources.cpp: ..\..\resources.qrc \
 		..\..\images\itch_io.svg \
 		..\..\images\itch_io_grey.svg \
 		..\..\images\linked_in_grey.svg \
+		..\..\images\sliderDown_Idle.svg \
 		..\..\images\GodDamnHell.png \
 		..\..\images\youtube_grey.svg \
 		..\..\images\WickedTD.png \
 		..\..\images\LurkerInTheNightlight.png \
 		..\..\images\youtube.svg \
 		..\..\images\arrowUp.svg \
+		..\..\images\sliderUp_Hovered.svg \
 		..\..\images\github_white.svg \
 		..\..\images\TuwasGegenMuda.png \
 		..\..\stylesheets\aboutme.qss \
+		..\..\stylesheets\scrollView.qss \
 		..\..\stylesheets\header.qss \
 		..\..\stylesheets\projects.qss \
 		..\..\stylesheets\footer.qss \
@@ -2398,7 +2405,22 @@ aboutme.obj: ..\..\aboutme.cpp ..\..\aboutme.h \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QMainWindow \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qmainwindow.h \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qtabwidget.h \
-		ui_aboutme.h
+		ui_aboutme.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtCore\QVariant \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QApplication \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qapplication.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QHBoxLayout \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qboxlayout.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qlayout.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qlayoutitem.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qgridlayout.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QLabel \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qlabel.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qframe.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtGui\qpicture.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtGui\qtextdocument.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QSpacerItem \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QVBoxLayout
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o aboutme.obj ..\..\aboutme.cpp
 
 animatedbutton.obj: ..\..\animatedbutton.cpp ..\..\animatedbutton.h \
@@ -2792,7 +2814,24 @@ footer.obj: ..\..\footer.cpp ..\..\footer.h \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QMainWindow \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qmainwindow.h \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qtabwidget.h \
-		ui_footer.h
+		ui_footer.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtCore\QVariant \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QApplication \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qapplication.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QHBoxLayout \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qboxlayout.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qlayout.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qlayoutitem.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qgridlayout.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QLabel \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qlabel.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qframe.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtGui\qpicture.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtGui\qtextdocument.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QSpacerItem \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QVBoxLayout \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtGui\QDesktopServices \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtGui\qdesktopservices.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o footer.obj ..\..\footer.cpp
 
 header.obj: ..\..\header.cpp ..\..\header.h \
@@ -2988,7 +3027,21 @@ header.obj: ..\..\header.cpp ..\..\header.h \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QMainWindow \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qmainwindow.h \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qtabwidget.h \
-		ui_header.h
+		ui_header.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtCore\QVariant \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QApplication \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qapplication.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QHBoxLayout \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qboxlayout.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qlayout.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qlayoutitem.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qgridlayout.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QLabel \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qlabel.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qframe.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtGui\qpicture.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtGui\qtextdocument.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QSpacerItem
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o header.obj ..\..\header.cpp
 
 hero.obj: ..\..\hero.cpp ..\..\hero.h \
@@ -3185,6 +3238,21 @@ hero.obj: ..\..\hero.cpp ..\..\hero.h \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qmainwindow.h \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qtabwidget.h \
 		ui_hero.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtCore\QVariant \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QApplication \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qapplication.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QHBoxLayout \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qboxlayout.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qlayout.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qlayoutitem.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qgridlayout.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QLabel \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qlabel.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qframe.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtGui\qpicture.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtGui\qtextdocument.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QSpacerItem \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QVBoxLayout \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtCore\QEvent \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtGui\QDesktopServices \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtGui\qdesktopservices.h
@@ -3581,14 +3649,18 @@ mainwindow.obj: ..\..\mainwindow.cpp ..\..\mainwindow.h \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qmainwindow.h \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qtabwidget.h \
 		ui_mainwindow.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtCore\QVariant \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QApplication \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qapplication.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QVBoxLayout \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qboxlayout.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qlayout.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qlayoutitem.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qgridlayout.h \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtCore\QFile \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtCore\qfile.h \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtCore\qfiledevice.h \
-		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QLayout \
-		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qlayout.h \
-		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qlayoutitem.h \
-		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qboxlayout.h \
-		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qgridlayout.h
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QLayout
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow.obj ..\..\mainwindow.cpp
 
 projects.obj: ..\..\projects.cpp ..\..\mainwindow.h \
@@ -3785,20 +3857,31 @@ projects.obj: ..\..\projects.cpp ..\..\mainwindow.h \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qmainwindow.h \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qtabwidget.h \
 		ui_projects.h \
-		C:\Qt\6.7.0\wasm_singlethread\include\QtGui\QDesktopServices \
-		C:\Qt\6.7.0\wasm_singlethread\include\QtGui\qdesktopservices.h \
-		C:\Qt\6.7.0\wasm_singlethread\include\QtCore\QFile \
-		C:\Qt\6.7.0\wasm_singlethread\include\QtCore\qfile.h \
-		C:\Qt\6.7.0\wasm_singlethread\include\QtCore\qfiledevice.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtCore\QVariant \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QApplication \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qapplication.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QGridLayout \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qgridlayout.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qlayout.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qlayoutitem.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qboxlayout.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QHBoxLayout \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QLabel \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qlabel.h \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qframe.h \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtGui\qpicture.h \
-		C:\Qt\6.7.0\wasm_singlethread\include\QtGui\qtextdocument.h
+		C:\Qt\6.7.0\wasm_singlethread\include\QtGui\qtextdocument.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QSpacerItem \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QVBoxLayout \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtGui\QDesktopServices \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtGui\qdesktopservices.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtCore\QFile \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtCore\qfile.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtCore\qfiledevice.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o projects.obj ..\..\projects.cpp
 
-scrollview.obj: ..\..\scrollview.cpp ..\..\scrollview.h \
-		..\..\aboutme.h \
+scrollview.obj: ..\..\scrollview.cpp ..\..\mainwindow.h \
+		..\..\header.h \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QWidget \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qwidget.h \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qtwidgetsglobal.h \
@@ -3973,7 +4056,6 @@ scrollview.obj: ..\..\scrollview.cpp ..\..\scrollview.h \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtGui\qinputmethod.h \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtCore\qlocale.h \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtGui\qguiapplication_platform.h \
-		..\..\footer.h \
 		..\..\hero.h \
 		..\..\animatedbutton.h \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtCore\QPropertyAnimation \
@@ -3984,8 +4066,29 @@ scrollview.obj: ..\..\scrollview.cpp ..\..\scrollview.h \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QPushButton \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qpushbutton.h \
 		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qabstractbutton.h \
+		..\..\scrollview.h \
+		..\..\aboutme.h \
+		..\..\footer.h \
 		..\..\projects.h \
-		ui_scrollview.h
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QMainWindow \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qmainwindow.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qtabwidget.h \
+		ui_scrollview.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtCore\QVariant \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QApplication \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qapplication.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QScrollArea \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qscrollarea.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qabstractscrollarea.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qframe.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QVBoxLayout \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qboxlayout.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qlayout.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qlayoutitem.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qgridlayout.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\QScrollBar \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qscrollbar.h \
+		C:\Qt\6.7.0\wasm_singlethread\include\QtWidgets\qabstractslider.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o scrollview.obj ..\..\scrollview.cpp
 
 portfolio_qt_v6_7.js_plugin_import.obj: C:/Users/stdimetz/Documents/GitRepos/portfolio/Portfolio_Qt_V6_7/build/WebAssembly_Qt_6_7_0_single_threaded-Debug/portfolio_qt_v6_7.js_plugin_import.cpp 
@@ -4031,7 +4134,7 @@ uninstall_target: FORCE
 
 install_js_file: first FORCE
 	@if not exist $(INSTALL_ROOT:@msyshack@%=%)\opt\Portfolio_Qt_V6_7\bin mkdir $(INSTALL_ROOT:@msyshack@%=%)\opt\Portfolio_Qt_V6_7\bin & if not exist $(INSTALL_ROOT:@msyshack@%=%)\opt\Portfolio_Qt_V6_7\bin exit 1
-	$(QINSTALL_PROGRAM) C:\Users\stdimetz\Documents\GitRepos\portfolio\Portfolio_Qt_V6_7\Portfolio_Qt_V6_7.js $(INSTALL_ROOT:@msyshack@%=%)\opt\Portfolio_Qt_V6_7\bin\Portfolio_Qt_V6_7.js
+	$(QINSTALL) C:\Users\stdimetz\Documents\GitRepos\portfolio\Portfolio_Qt_V6_7\build\WebAssembly_Qt_6_7_0_single_threaded-Debug\Portfolio_Qt_V6_7.js $(INSTALL_ROOT:@msyshack@%=%)\opt\Portfolio_Qt_V6_7\bin\Portfolio_Qt_V6_7.js
 
 uninstall_js_file: FORCE
 	-$(DEL_FILE) $(INSTALL_ROOT:@msyshack@%=%)\opt\Portfolio_Qt_V6_7\bin\Portfolio_Qt_V6_7.js

@@ -13,8 +13,9 @@ MainWindow::MainWindow(QWidget *parent)
     m_header = new Header(ui->centralwidget);
     m_scrollView = new ScrollView(ui->centralwidget);
 
-    ui->centralwidget->layout()->addWidget(m_header);
     ui->centralwidget->layout()->addWidget(m_scrollView);
+
+    m_header->raise();
 }
 
 MainWindow::~MainWindow()

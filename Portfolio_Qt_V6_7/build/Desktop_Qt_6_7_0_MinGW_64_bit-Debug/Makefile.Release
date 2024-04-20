@@ -146,10 +146,12 @@ compiler_rcc_clean:
 	-$(DEL_FILE) release\qrc_resources.cpp
 release/qrc_resources.cpp: ../../resources.qrc \
 		C:/Qt/6.7.0/mingw_64/bin/rcc.exe \
+		../../images/sliderDown_Hovered.svg \
 		../../images/itch_io_white.svg \
 		../../images/Profilbild_Circle_64x64.png \
 		../../images/linked_in_white.svg \
 		../../images/github_grey.svg \
+		../../images/sliderUp_Idle.svg \
 		../../images/chromaCore.png \
 		../../images/github.svg \
 		../../images/triangleBackground.png \
@@ -159,15 +161,18 @@ release/qrc_resources.cpp: ../../resources.qrc \
 		../../images/itch_io.svg \
 		../../images/itch_io_grey.svg \
 		../../images/linked_in_grey.svg \
+		../../images/sliderDown_Idle.svg \
 		../../images/GodDamnHell.png \
 		../../images/youtube_grey.svg \
 		../../images/WickedTD.png \
 		../../images/LurkerInTheNightlight.png \
 		../../images/youtube.svg \
 		../../images/arrowUp.svg \
+		../../images/sliderUp_Hovered.svg \
 		../../images/github_white.svg \
 		../../images/TuwasGegenMuda.png \
 		../../stylesheets/aboutme.qss \
+		../../stylesheets/scrollView.qss \
 		../../stylesheets/header.qss \
 		../../stylesheets/projects.qss \
 		../../stylesheets/footer.qss \
@@ -2467,7 +2472,9 @@ release/footer.o: ../../footer.cpp ../../footer.h \
 		C:/Qt/6.7.0/mingw_64/include/QtGui/qpicture.h \
 		C:/Qt/6.7.0/mingw_64/include/QtGui/qtextdocument.h \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QSpacerItem \
-		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QVBoxLayout
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QVBoxLayout \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/QDesktopServices \
+		C:/Qt/6.7.0/mingw_64/include/QtGui/qdesktopservices.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\footer.o ..\..\footer.cpp
 
 release/header.o: ../../header.cpp ../../header.h \
@@ -3576,8 +3583,8 @@ release/projects.o: ../../projects.cpp ../../mainwindow.h \
 		C:/Qt/6.7.0/mingw_64/include/QtCore/qfiledevice.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\projects.o ..\..\projects.cpp
 
-release/scrollview.o: ../../scrollview.cpp ../../scrollview.h \
-		../../aboutme.h \
+release/scrollview.o: ../../scrollview.cpp ../../mainwindow.h \
+		../../header.h \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QWidget \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qwidget.h \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -3764,7 +3771,6 @@ release/scrollview.o: ../../scrollview.cpp ../../scrollview.h \
 		C:/Qt/6.7.0/mingw_64/include/QtGui/qinputmethod.h \
 		C:/Qt/6.7.0/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.7.0/mingw_64/include/QtGui/qguiapplication_platform.h \
-		../../footer.h \
 		../../hero.h \
 		../../animatedbutton.h \
 		C:/Qt/6.7.0/mingw_64/include/QtCore/QPropertyAnimation \
@@ -3775,7 +3781,13 @@ release/scrollview.o: ../../scrollview.cpp ../../scrollview.h \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QPushButton \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qpushbutton.h \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractbutton.h \
+		../../scrollview.h \
+		../../aboutme.h \
+		../../footer.h \
 		../../projects.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QMainWindow \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qmainwindow.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtabwidget.h \
 		ui_scrollview.h \
 		C:/Qt/6.7.0/mingw_64/include/QtCore/QVariant \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QApplication \
@@ -3788,7 +3800,10 @@ release/scrollview.o: ../../scrollview.cpp ../../scrollview.h \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qboxlayout.h \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qlayout.h \
 		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qlayoutitem.h \
-		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qgridlayout.h
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qgridlayout.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/QScrollBar \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qscrollbar.h \
+		C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractslider.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\scrollview.o ..\..\scrollview.cpp
 
 release/qrc_resources.o: release/qrc_resources.cpp 

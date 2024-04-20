@@ -17,6 +17,8 @@ public:
 
 private:
     Ui::Header *ui;
+
+    void AdjustSize();
 };
 
 #endif // HEADER_H

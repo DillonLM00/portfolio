@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>858</width>
+    <width>874</width>
     <height>800</height>
    </rect>
   </property>
@@ -27,7 +27,7 @@
     <number>0</number>
    </property>
    <property name="topMargin">
-    <number>0</number>
+    <number>192</number>
    </property>
    <property name="rightMargin">
     <number>0</number>
@@ -255,7 +255,7 @@
             </size>
            </property>
            <property name="text">
-            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;I am driven by...&lt;/span&gt;&lt;/p&gt;&lt;p&gt;when I can face new challenges and develop myself through them&lt;/p&gt;&lt;p&gt;when good collaboration creates a genuine flow experience and a real feeling of togetherness&lt;br/&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;I am driven by...&lt;/span&gt;&lt;/p&gt;&lt;p&gt;when I can face new challenges and develop myself through them&lt;/p&gt;&lt;p&gt;when good collaboration creates a genuine flow experience and a real feeling of togetherness&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
            <property name="alignment">
             <set>Qt::AlignCenter</set>

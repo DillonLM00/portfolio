@@ -10,6 +10,8 @@ ScrollView::ScrollView(QWidget *parent)
 {
     ui->setupUi(this);
 
+    MainWindow::SetWidgetStyleSheet(this, ":/stylesheets/stylesheets/scrollView.qss");
+
     m_hero = new Hero(this);
     m_aboutMe = new AboutMe(this);
     m_projects = new Projects(this);
@@ -28,6 +30,8 @@ ScrollView::ScrollView(QWidget *parent)
     connect(MainWindow::GetMainWindow(this), &MainWindow::OnHomeButtonClickedSignal, this, &ScrollView::MovePageToTop);
     connect(MainWindow::GetMainWindow(this), &MainWindow::OnAboutButtonClickedSignal, this, &ScrollView::MovePageToAboutMe);
     connect(MainWindow::GetMainWindow(this), &MainWindow::OnProjectsButtonClickedSignal, this, &ScrollView::MovePageToProjects);
+
+    connect(MainWindow::GetMainWindow(this), &MainWindow::ResizeSignal, this, &ScrollView::Upp);
 }
 
 ScrollView::~ScrollView()
@@ -42,12 +46,12 @@ void ScrollView::MovePageToTop()
 
 void ScrollView::MovePageToAboutMe()
 {
-    StartPageAnimation(m_aboutMe->y() + 17);
+    StartPageAnimation(m_aboutMe->y() - 128);
 }
 
 void ScrollView::MovePageToProjects()
 {
-    StartPageAnimation(m_projects->y() + 29);
+    StartPageAnimation(m_projects->y() - 128);
 }
 
 void ScrollView::StartPageAnimation(int endValue)
@@ -60,4 +64,10 @@ void ScrollView::StartPageAnimation(int endValue)
     m_pageAnimation->setStartValue(ui->scrollArea->verticalScrollBar()->value());
     m_pageAnimation->setEndValue(endValue);
     m_pageAnimation->start();
+}
+
+void ScrollView::Upp()
+{
+    qDebug() << m_aboutMe->y() - ui->scrollArea->verticalScrollBar()->value();
+    qDebug() << m_projects->y() - ui->scrollArea->verticalScrollBar()->value();
 }

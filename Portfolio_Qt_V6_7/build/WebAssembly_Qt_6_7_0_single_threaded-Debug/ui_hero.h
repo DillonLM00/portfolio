@@ -45,12 +45,12 @@ public:
     {
         if (Hero->objectName().isEmpty())
             Hero->setObjectName("Hero");
-        Hero->resize(858, 800);
+        Hero->resize(874, 800);
         Hero->setMinimumSize(QSize(0, 800));
         verticalLayout = new QVBoxLayout(Hero);
         verticalLayout->setSpacing(0);
         verticalLayout->setObjectName("verticalLayout");
-        verticalLayout->setContentsMargins(0, 0, 0, 64);
+        verticalLayout->setContentsMargins(0, 192, 0, 64);
         verticalSpacer_7 = new QSpacerItem(20, 0, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
 
         verticalLayout->addItem(verticalSpacer_7);
@@ -157,7 +157,7 @@ public:
         gitHubButton->setText(QString());
         youTubeButton->setText(QString());
         headingLabel->setText(QCoreApplication::translate("Hero", "HEY, I'M DILLON METZLER", nullptr));
-        textLabel->setText(QCoreApplication::translate("Hero", "<html><head/><body><p><span style=\" font-weight:700;\">I am driven by...</span></p><p>when I can face new challenges and develop myself through them</p><p>when good collaboration creates a genuine flow experience and a real feeling of togetherness<br/>.</p></body></html>", nullptr));
+        textLabel->setText(QCoreApplication::translate("Hero", "<html><head/><body><p><span style=\" font-weight:700;\">I am driven by...</span></p><p>when I can face new challenges and develop myself through them</p><p>when good collaboration creates a genuine flow experience and a real feeling of togetherness</p></body></html>", nullptr));
     } // retranslateUi
 
 };

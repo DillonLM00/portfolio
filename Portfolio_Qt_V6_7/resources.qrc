@@ -21,6 +21,10 @@
         <file>images/youtube.svg</file>
         <file>images/youtube_grey.svg</file>
         <file>images/youtube_white.svg</file>
+        <file>images/sliderDown_Hovered.svg</file>
+        <file>images/sliderUp_Hovered.svg</file>
+        <file>images/sliderDown_Idle.svg</file>
+        <file>images/sliderUp_Idle.svg</file>
     </qresource>
     <qresource prefix="/stylesheets">
         <file>stylesheets/aboutme.qss</file>
@@ -28,5 +32,6 @@
         <file>stylesheets/header.qss</file>
         <file>stylesheets/hero.qss</file>
         <file>stylesheets/projects.qss</file>
+        <file>stylesheets/scrollView.qss</file>
     </qresource>
 </RCC>
