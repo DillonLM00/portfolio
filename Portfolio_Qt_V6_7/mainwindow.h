@@ -24,6 +24,10 @@ public:
 signals:
     void ResizeSignal();
 
+    void OnHomeButtonClickedSignal();
+    void OnAboutButtonClickedSignal();
+    void OnProjectsButtonClickedSignal();
+
 protected:
     void resizeEvent(QResizeEvent* event);
 

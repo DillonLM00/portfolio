@@ -17,8 +17,25 @@ Projects::Projects(QWidget *parent)
 
     MainWindow::SetWidgetStyleSheet(this, ":/stylesheets/stylesheets/projects.qss");
 
+    connect(m_CC_YTButton, &QPushButton::clicked, this, &Projects::OnCC_YTButtonClicked);
+    connect(m_CC_itchButton, &QPushButton::clicked, this, &Projects::OnCC_ItchButtonClicked);
     connect(m_CC_DocButton, &QPushButton::clicked, this, &Projects::OnCC_DocButtonClicked);
 
+    connect(m_TgW_YTButton, &QPushButton::clicked, this, &Projects::OnTgW_YTButtonClicked);
+    connect(m_TgW_itchButton, &QPushButton::clicked, this, &Projects::OnTgW_ItchButtonClicked);
+    connect(m_TgW_DocButton, &QPushButton::clicked, this, &Projects::OnTgW_DocButtonClicked);
+
+    connect(m_ST_YTButton, &QPushButton::clicked, this, &Projects::OnST_YTButtonClicked);
+    connect(m_ST_DocButton, &QPushButton::clicked, this, &Projects::OnST_DocButtonClicked);
+
+    connect(m_GDH_YTButton, &QPushButton::clicked, this, &Projects::OnGDH_YTButtonClicked);
+    connect(m_GDH_webButton, &QPushButton::clicked, this, &Projects::OnGDH_WebButtonClicked);
+    connect(m_GDH_DocButton, &QPushButton::clicked, this, &Projects::OnGDH_DocButtonClicked);
+
+    connect(m_WTD_itchButton, &QPushButton::clicked, this, &Projects::OnWTD_ItchButtonClicked);
+
+    connect(m_LITN_YTButton, &QPushButton::clicked, this, &Projects::OnLITN_YTButtonClicked);
+    connect(m_LITN_itchButton, &QPushButton::clicked, this, &Projects::OnLITN_ItchButtonClicked);
 }
 
 Projects::~Projects()
@@ -150,79 +167,84 @@ void Projects::SetupUI()
 
 void Projects::OnCC_YTButtonClicked()
 {
-
+    QDesktopServices service = QDesktopServices();
+    service.openUrl(QString("https://youtu.be/xGSmEAZ2DBQ"));
 }
 
 void Projects::OnCC_ItchButtonClicked()
 {
-
+    QDesktopServices service = QDesktopServices();
+    service.openUrl(QString("https://dillonlm00.itch.io/chroma-core"));
 }
 
 void Projects::OnCC_DocButtonClicked()
 {
     QDesktopServices service = QDesktopServices();
-
-    QFile pdf = QFile(":/files/files/DillonMetzler_431015_ChromaCore_Dokumentation.pdf");
-    service.openUrl(QUrl::fromLocalFile("DillonMetzler_431015_ChromaCore_Dokumentation.pdf"));
+    service.openUrl(QString("https://1drv.ms/b/s!Ajf8_wO7GGi5kBK97j8SjwZQzjPf"));
 }
 
 void Projects::OnTgW_YTButtonClicked()
 {
-
+    QDesktopServices service = QDesktopServices();
+    service.openUrl(QString("https://youtu.be/VyZglp0VhdI"));
 }
 
 void Projects::OnTgW_ItchButtonClicked()
 {
-
+    QDesktopServices service = QDesktopServices();
+    service.openUrl(QString("https://infoboard.itch.io/tuwas-gegen-muda"));
 }
 
 void Projects::OnTgW_DocButtonClicked()
 {
-
+    QDesktopServices service = QDesktopServices();
+    service.openUrl(QString("https://1drv.ms/b/s!Ajf8_wO7GGi5kBSXlmmnXzz8rv3j"));
 }
 
 void Projects::OnST_YTButtonClicked()
 {
-
+    QDesktopServices service = QDesktopServices();
+    service.openUrl(QString("https://youtu.be/l4wtp2Y3LRw"));
 }
 
 void Projects::OnST_DocButtonClicked()
 {
-
+    QDesktopServices service = QDesktopServices();
+    service.openUrl(QString("https://1drv.ms/b/s!Ajf8_wO7GGi5kBMwbZ7ZCao9lHtR"));
 }
 
 void Projects::OnGDH_YTButtonClicked()
 {
-
+    QDesktopServices service = QDesktopServices();
+    service.openUrl(QString("https://youtu.be/ooRUAIQaN7o"));
 }
 
 void Projects::OnGDH_WebButtonClicked()
 {
-
+    QDesktopServices service = QDesktopServices();
+    service.openUrl(QString("https://www.hs-kempten.de/fakultaet-informatik/aktuelles/artikel/god-damn-hell-1212"));
 }
 
 void Projects::OnGDH_DocButtonClicked()
 {
-
+    QDesktopServices service = QDesktopServices();
+    service.openUrl(QString("https://1drv.ms/b/s!Ajf8_wO7GGi5kBFGvx8LNPn9eLsa"));
 }
 
 void Projects::OnWTD_ItchButtonClicked()
 {
-
+    QDesktopServices service = QDesktopServices();
+    service.openUrl(QString("https://jan0h4ck.itch.io/wickedtd"));
 }
 
 void Projects::OnLITN_YTButtonClicked()
 {
-
+    QDesktopServices service = QDesktopServices();
+    service.openUrl(QString("https://youtu.be/IPoiKoNWf3s"));
 }
 
 void Projects::OnLITN_ItchButtonClicked()
 {
-
-}
-
-void Projects::OnGDHDocumentationClicked()
-{
     QDesktopServices service = QDesktopServices();
-    service.openUrl(QString(":/files/files/DillonMetzler_431015_ChromaCore_Dokumentation.pdf"));
+    service.openUrl(QString("https://stjpa.itch.io/lurkers-in-the-nightlight"));
 }

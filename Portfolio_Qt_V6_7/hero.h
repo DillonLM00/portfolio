@@ -21,9 +21,6 @@ private:
 
     AnimatedButton* m_projectsButton;
 
-    void OnButtonEnter();
-    void OnButtonLeave();
-
     void OnLinkedInButtonClicked();
     void OnItchIoButtonClicked();
     void OnGitHubButtonClicked();

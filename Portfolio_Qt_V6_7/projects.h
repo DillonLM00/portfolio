@@ -64,8 +64,6 @@ private slots:
 
     void OnLITN_YTButtonClicked();
     void OnLITN_ItchButtonClicked();
-
-    void OnGDHDocumentationClicked();
 };
 
 #endif // PROJECTS_H

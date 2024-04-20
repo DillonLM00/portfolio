@@ -64,8 +64,8 @@ public:
     QLabel *projectDescribtionLabel_1;
     QWidget *buttonWidget_1;
     QHBoxLayout *horizontalLayout_4;
-    QPushButton *pushButton_1_2;
     QPushButton *pushButton_1_1;
+    QPushButton *pushButton_1_2;
     QPushButton *pushButton_1_3;
     QSpacerItem *horizontalSpacer_3;
     QSpacerItem *verticalSpacer;
@@ -350,19 +350,19 @@ public:
         horizontalLayout_4->setSpacing(32);
         horizontalLayout_4->setObjectName("horizontalLayout_4");
         horizontalLayout_4->setContentsMargins(0, 8, 0, 0);
-        pushButton_1_2 = new QPushButton(buttonWidget_1);
-        pushButton_1_2->setObjectName("pushButton_1_2");
-        pushButton_1_2->setMinimumSize(QSize(0, 68));
-        pushButton_1_2->setProperty("moving", QVariant(false));
-
-        horizontalLayout_4->addWidget(pushButton_1_2);
-
         pushButton_1_1 = new QPushButton(buttonWidget_1);
         pushButton_1_1->setObjectName("pushButton_1_1");
         pushButton_1_1->setMinimumSize(QSize(0, 68));
         pushButton_1_1->setProperty("moving", QVariant(false));
 
         horizontalLayout_4->addWidget(pushButton_1_1);
+
+        pushButton_1_2 = new QPushButton(buttonWidget_1);
+        pushButton_1_2->setObjectName("pushButton_1_2");
+        pushButton_1_2->setMinimumSize(QSize(0, 68));
+        pushButton_1_2->setProperty("moving", QVariant(false));
+
+        horizontalLayout_4->addWidget(pushButton_1_2);
 
         pushButton_1_3 = new QPushButton(buttonWidget_1);
         pushButton_1_3->setObjectName("pushButton_1_3");
@@ -841,8 +841,8 @@ public:
         dateLabel_1->setProperty("styleType", QVariant(QCoreApplication::translate("Projects", "projectDate", nullptr)));
         projectDescribtionLabel_1->setText(QCoreApplication::translate("Projects", "<html><head/><body><p>Created as part of the Game Prototyping course in the summer semester 2023 at Kempten University of Applied Sciences.<br/></p><p>Topic: Game prototyping</p><p>Genre: 2D Platformer</p><p>Engine: Godot 4</p><p>Team size: 9</p><p>Project duration: 1 semester<br/></p></body></html>", nullptr));
         projectDescribtionLabel_1->setProperty("styleType", QVariant(QCoreApplication::translate("Projects", "projectDescribtion", nullptr)));
-        pushButton_1_2->setText(QCoreApplication::translate("Projects", "YouTube", nullptr));
-        pushButton_1_1->setText(QCoreApplication::translate("Projects", "itch.io", nullptr));
+        pushButton_1_1->setText(QCoreApplication::translate("Projects", "YouTube", nullptr));
+        pushButton_1_2->setText(QCoreApplication::translate("Projects", "itch.io", nullptr));
         pushButton_1_3->setText(QCoreApplication::translate("Projects", "Documentation", nullptr));
         pictureLabel_3->setText(QString());
         projectNameLabel_3->setText(QCoreApplication::translate("Projects", "Slime Tempest - Sounddesign and soundproduction", nullptr));

@@ -10,6 +10,10 @@ Header::Header(QWidget *parent)
     setAttribute(Qt::WA_StyledBackground);
 
     MainWindow::SetWidgetStyleSheet(this, ":/stylesheets/stylesheets/header.qss");
+
+    connect(ui->homeButton, &QPushButton::clicked, MainWindow::GetMainWindow(this), &MainWindow::OnHomeButtonClickedSignal);
+    connect(ui->aboutButton, &QPushButton::clicked, MainWindow::GetMainWindow(this), &MainWindow::OnAboutButtonClickedSignal);
+    connect(ui->projectsButton, &QPushButton::clicked, MainWindow::GetMainWindow(this), &MainWindow::OnProjectsButtonClickedSignal);
 }
 
 Header::~Header()

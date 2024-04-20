@@ -149,11 +149,7 @@
          <item>
           <widget class="QLabel" name="textGTKLabel">
            <property name="text">
-            <string>I'm a Frontend Focused Web Developer building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.
-
-I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my Linkedin and Instagram where I post useful content related to Web Development and Programming
-
-I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</string>
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;I am currently studying Computer Science - Game Engineering in my 8th semester at Kempten University of Applied Sciences.&lt;br/&gt;&lt;br/&gt;Games are my passion!&lt;/p&gt;&lt;p&gt;During my studies, I discovered my enthusiasm for games programming in particular. I also gained experience in the areas of modelling, animation and implementation. Through projects as part of my studies or in my free time, as well as by participating in game jams, I have acquired knowledge of Godot, Unity, C# and C++. I also learnt the importance of planning, structuring, communication, clear interfaces and time management within a team.&lt;/p&gt;&lt;p&gt;As part of my work as a student assistant at the Institute for Production and Computer Science in Sonthofen, I have been intensively involved with Qt for software development.&lt;br/&gt;&lt;br/&gt;I am currently writing my bachelor's thesis at the IPI in Sonthofen in the field of embedded systems and am working there as a student assistant int part-time parallel to my bachelor's thesis.&lt;br/&gt;&lt;br/&gt;I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
            <property name="wordWrap">
             <bool>true</bool>
@@ -799,7 +795,7 @@ I'm open to Job opportunities where I can contribute, learn and grow. If you hav
                   </size>
                  </property>
                  <property name="text">
-                  <string>Projektmanagement</string>
+                  <string>Project management</string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignCenter</set>

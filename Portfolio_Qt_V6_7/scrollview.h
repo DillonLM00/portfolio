@@ -7,6 +7,7 @@
 #include "projects.h"
 
 #include <QWidget>
+#include <QPropertyAnimation>
 
 namespace Ui {
 class ScrollView;
@@ -20,6 +21,11 @@ public:
     explicit ScrollView(QWidget *parent = nullptr);
     ~ScrollView();
 
+public slots:
+    void MovePageToTop();
+    void MovePageToAboutMe();
+    void MovePageToProjects();
+
 private:
     Ui::ScrollView *ui;
 
@@ -27,6 +33,10 @@ private:
     AboutMe* m_aboutMe;
     Projects* m_projects;
     Footer* m_footer;
+
+    QPropertyAnimation* m_pageAnimation;
+
+    void StartPageAnimation(int endValue);
 };
 
 #endif // SCROLLVIEW_H

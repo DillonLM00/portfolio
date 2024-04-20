@@ -16,13 +16,13 @@ Hero::Hero(QWidget *parent)
 
     MainWindow::SetWidgetStyleSheet(this, ":/stylesheets/stylesheets/hero.qss");
 
-    m_projectsButton = new AnimatedButton(ui->content);
-    m_projectsButton->setObjectName("projectsButton");
-    m_projectsButton->setMinimumSize(ui->projectsButton->minimumSize());
-    m_projectsButton->setMaximumSize(ui->projectsButton->maximumSize());
-    m_projectsButton->setText(ui->projectsButton->text());
-    ui->content->layout()->replaceWidget(ui->projectsButton, m_projectsButton);
-    ui->projectsButton->hide();
+    //m_projectsButton = new AnimatedButton(ui->content);
+    //m_projectsButton->setObjectName("projectsButton");
+    //m_projectsButton->setMinimumSize(ui->projectsButton->minimumSize());
+    //m_projectsButton->setMaximumSize(ui->projectsButton->maximumSize());
+    //m_projectsButton->setText(ui->projectsButton->text());
+    //ui->content->layout()->replaceWidget(ui->projectsButton, m_projectsButton);
+    //ui->projectsButton->hide();
 
     connect(ui->linkedInButton, &QPushButton::clicked, this, &Hero::OnLinkedInButtonClicked);
     connect(ui->itchButton, &QPushButton::clicked, this, &Hero::OnItchIoButtonClicked);

@@ -17,6 +17,12 @@ public:
 
 private:
     Ui::Footer *ui;
+
+private slots:
+    void OnLinkedInButtonClicked();
+    void OnItchIoButtonClicked();
+    void OnGitHubButtonClicked();
+    void OnYouTubeButtonClicked();
 };
 
 #endif // FOOTER_H

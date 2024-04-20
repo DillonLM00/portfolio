@@ -441,11 +441,8 @@ public:
         headingLabel->setText(QCoreApplication::translate("AboutMe", "ABOUT ME", nullptr));
         textLabel->setText(QCoreApplication::translate("AboutMe", "Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology", nullptr));
         headingGTKLabel->setText(QCoreApplication::translate("AboutMe", "Get to know me!", nullptr));
-        textGTKLabel->setText(QCoreApplication::translate("AboutMe", "I'm a Frontend Focused Web Developer building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.\n"
-"\n"
-"I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my Linkedin and Instagram where I post useful content related to Web Development and Programming\n"
-"\n"
-"I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.", nullptr));
+        textGTKLabel->setText(QCoreApplication::translate("AboutMe", "<html><head/><body><p>I am currently studying Computer Science - Game Engineering in my 8th semester at Kempten University of Applied Sciences.<br/><br/>Games are my passion!</p><p>During my studies, I discovered my enthusiasm for games programming in particular. I also gained experience in the areas of modelling, animation and implementation. Through projects as part of my studies or in my free time, as well as by participating in game jams, I have acquired knowledge of Godot, Unity, C# and C++. I also learnt the importance of planning, structuring, communication, clear interfaces and time management within a team.</p><p>As part of my work as a student assistant at the Institute for Production and Computer Science in Sonthofen, I have been intensively involved with Qt for software development.<br/><br/>I am currently writing my bachelor's thesis at the IPI in Sonthofen in the field of embedded systems and am working there as a student assistant int part-time parallel to my bachelor's thesis.<br/><br/>I'm open"
+                        " to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p></body></html>", nullptr));
         headingAMLabel->setText(QCoreApplication::translate("AboutMe", "My Skills", nullptr));
         label_4->setText(QCoreApplication::translate("AboutMe", "C", nullptr));
         label_5->setText(QCoreApplication::translate("AboutMe", "C++", nullptr));
@@ -464,7 +461,7 @@ public:
         label_21->setText(QCoreApplication::translate("AboutMe", "Visual Studio", nullptr));
         label_20->setText(QCoreApplication::translate("AboutMe", "Microsoft Office", nullptr));
         label_17->setText(QCoreApplication::translate("AboutMe", "Game Developement", nullptr));
-        label->setText(QCoreApplication::translate("AboutMe", "Projektmanagement", nullptr));
+        label->setText(QCoreApplication::translate("AboutMe", "Project management", nullptr));
         label_15->setText(QCoreApplication::translate("AboutMe", "Embedded Systems", nullptr));
     } // retranslateUi
 
