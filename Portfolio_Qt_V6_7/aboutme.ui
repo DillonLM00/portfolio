@@ -149,7 +149,7 @@
          <item>
           <widget class="QLabel" name="textGTKLabel">
            <property name="text">
-            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;I am currently studying Computer Science - Game Engineering in my 8th semester at Kempten University of Applied Sciences.&lt;br/&gt;&lt;br/&gt;Games are my passion!&lt;/p&gt;&lt;p&gt;During my studies, I discovered my enthusiasm for games programming in particular. I also gained experience in the areas of modelling, animation and implementation. Through projects as part of my studies or in my free time, as well as by participating in game jams, I have acquired knowledge of Godot, Unity, C# and C++. I also learnt the importance of planning, structuring, communication, clear interfaces and time management within a team.&lt;/p&gt;&lt;p&gt;As part of my work as a student assistant at the Institute for Production and Computer Science in Sonthofen, I have been intensively involved with Qt for software development.&lt;br/&gt;&lt;br/&gt;I am currently writing my bachelor's thesis at the IPI in Sonthofen in the field of embedded systems and am working there as a student assistant int part-time parallel to my bachelor's thesis.&lt;br/&gt;&lt;br/&gt;I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hello, my name is Dillon Leonardo Metzler and I am currently studying Computer Science - Game Engineering in my 8th semester at Kempten University of Applied Sciences.&lt;br/&gt;&lt;br/&gt;Games are my passion!&lt;/p&gt;&lt;p&gt;During my studies I discovered my enthusiasm for games programming in particular. I also gained experience in the areas of modelling, animation and implementation. Through projects as part of my studies or in my free time, where I took part in game jams, I have acquired good knowledge of Godot, Unity, C# and C++. Also I learnt the importance of planning, structuring, communication, defining clear interfaces and implementing time management within a development team.&lt;/p&gt;&lt;p&gt;Additionally during my work as a student assistant at the Institute for Production and Computer Science in Sonthofen I have been intensively involved with Qt for software development.&lt;br/&gt;&lt;br/&gt;Currently I am writing my bachelor's thesis at the IPI in Sonthofen in the area of embedded systems and furthermore I am continuing my work there as a student assistant in part-time parallel to my bachelor's thesis.&lt;br/&gt;&lt;br/&gt;I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
            </property>
            <property name="wordWrap">
             <bool>true</bool>
@@ -795,7 +795,7 @@
                   </size>
                  </property>
                  <property name="text">
-                  <string>Project management</string>
+                  <string>Project Management</string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignCenter</set>

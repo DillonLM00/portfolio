@@ -256,7 +256,7 @@
                <item>
                 <widget class="QLabel" name="projectDescribtionLabel_5">
                  <property name="text">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Brackeys Game Jam 2023.1:&lt;br/&gt;&lt;br/&gt;Topic: An end is a new beginning&lt;br/&gt;Genre: Strategy&lt;br/&gt;Engine: Unity&lt;br/&gt;Team size: 6&lt;br/&gt;Project duration: 1 Woche&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Brackeys Game Jam 2023.1:&lt;br/&gt;&lt;br/&gt;Topic: An end is a new beginning&lt;/p&gt;&lt;p&gt;Genre: Strategy&lt;/p&gt;&lt;p&gt;Engine: Unity&lt;/p&gt;&lt;p&gt;Team size: 6&lt;/p&gt;&lt;p&gt;Project duration: 1 Woche&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
@@ -745,7 +745,7 @@
                <item>
                 <widget class="QLabel" name="projectDescribtionLabel_3">
                  <property name="text">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The project was created as part of the course Sound Design and Sound Production for Games in the winter semester 2023/24 at Kempten University of Applied Sciences. The sound design was created for the game Slime Tempest, which was provided.&lt;/p&gt;&lt;p&gt;The sounds were recorded with the Zoom H4n Pro Recorder and processed in the audio workstation Waveform from Tracktion. Finally, they were implemented in the audio middleware Wwise from Audiokinetic.&lt;/p&gt;&lt;p&gt;Soundconcept:&lt;br/&gt;- Genre: 2D Sidescroller building strategy game&lt;br/&gt;- Medieval setting&lt;br/&gt;- World is invaded by slimes&lt;br/&gt;- Threatening atmosphere&lt;br/&gt;- Sounds should sound realistic and match the visual style&lt;br/&gt;- Variation of sounds, as there are not very many different ones&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The project was created as part of the course Sound Design and Sound Production for Games in the winter semester 2023/24 at Kempten University of Applied Sciences. The sound design was created for the game Slime Tempest, which was provided.&lt;/p&gt;&lt;p&gt;The sounds were recorded with the Zoom H4n Pro Recorder and processed in the audio workstation Waveform from Tracktion. Finally, they were implemented in the audio middleware Wwise from Audiokinetic.&lt;/p&gt;&lt;p&gt;Soundconcept:&lt;/p&gt;&lt;p&gt;- Genre: 2D Sidescroller building strategy game&lt;/p&gt;&lt;p&gt;- Medieval setting&lt;/p&gt;&lt;p&gt;- World is invaded by slimes&lt;/p&gt;&lt;p&gt;- Threatening atmosphere&lt;/p&gt;&lt;p&gt;- Sounds should sound realistic and match the visual style&lt;/p&gt;&lt;p&gt;- Variation of sounds, as there are not very many different ones&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
@@ -1194,7 +1194,7 @@
                <item>
                 <widget class="QLabel" name="projectDescribtionLabel_6">
                  <property name="text">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Brackeys Game Jam 2022.1:&lt;br/&gt;&lt;br/&gt;Topic: It is not real&lt;br/&gt;Genre: Horror&lt;br/&gt;Engine: Unity&lt;br/&gt;Team size: 8&lt;br/&gt;Project duration: 1 Woche&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Brackeys Game Jam 2022.1:&lt;br/&gt;&lt;br/&gt;Topic: It is not real&lt;/p&gt;&lt;p&gt;Genre: Horror&lt;/p&gt;&lt;p&gt;Engine: Unity&lt;/p&gt;&lt;p&gt;Team size: 8&lt;/p&gt;&lt;p&gt;Project duration: 1 Woche&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>

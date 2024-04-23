@@ -831,7 +831,7 @@ public:
         projectNameLabel_5->setProperty("styleType", QVariant(QCoreApplication::translate("Projects", "projectName", nullptr)));
         dateLabel_5->setText(QCoreApplication::translate("Projects", "Feb 2023 - Feb 2023", nullptr));
         dateLabel_5->setProperty("styleType", QVariant(QCoreApplication::translate("Projects", "projectDate", nullptr)));
-        projectDescribtionLabel_5->setText(QCoreApplication::translate("Projects", "<html><head/><body><p>Brackeys Game Jam 2023.1:<br/><br/>Topic: An end is a new beginning<br/>Genre: Strategy<br/>Engine: Unity<br/>Team size: 6<br/>Project duration: 1 Woche<br/></p></body></html>", nullptr));
+        projectDescribtionLabel_5->setText(QCoreApplication::translate("Projects", "<html><head/><body><p>Brackeys Game Jam 2023.1:<br/><br/>Topic: An end is a new beginning</p><p>Genre: Strategy</p><p>Engine: Unity</p><p>Team size: 6</p><p>Project duration: 1 Woche<br/></p></body></html>", nullptr));
         projectDescribtionLabel_5->setProperty("styleType", QVariant(QCoreApplication::translate("Projects", "projectDescribtion", nullptr)));
         pushButton_5_1->setText(QCoreApplication::translate("Projects", "itch.io", nullptr));
         pictureLabel_1->setText(QString());
@@ -849,7 +849,7 @@ public:
         projectNameLabel_3->setProperty("styleType", QVariant(QCoreApplication::translate("Projects", "projectName", nullptr)));
         dateLabel_3->setText(QCoreApplication::translate("Projects", "Oct 2023 - Jan 2024", nullptr));
         dateLabel_3->setProperty("styleType", QVariant(QCoreApplication::translate("Projects", "projectDate", nullptr)));
-        projectDescribtionLabel_3->setText(QCoreApplication::translate("Projects", "<html><head/><body><p>The project was created as part of the course Sound Design and Sound Production for Games in the winter semester 2023/24 at Kempten University of Applied Sciences. The sound design was created for the game Slime Tempest, which was provided.</p><p>The sounds were recorded with the Zoom H4n Pro Recorder and processed in the audio workstation Waveform from Tracktion. Finally, they were implemented in the audio middleware Wwise from Audiokinetic.</p><p>Soundconcept:<br/>- Genre: 2D Sidescroller building strategy game<br/>- Medieval setting<br/>- World is invaded by slimes<br/>- Threatening atmosphere<br/>- Sounds should sound realistic and match the visual style<br/>- Variation of sounds, as there are not very many different ones<br/></p></body></html>", nullptr));
+        projectDescribtionLabel_3->setText(QCoreApplication::translate("Projects", "<html><head/><body><p>The project was created as part of the course Sound Design and Sound Production for Games in the winter semester 2023/24 at Kempten University of Applied Sciences. The sound design was created for the game Slime Tempest, which was provided.</p><p>The sounds were recorded with the Zoom H4n Pro Recorder and processed in the audio workstation Waveform from Tracktion. Finally, they were implemented in the audio middleware Wwise from Audiokinetic.</p><p>Soundconcept:</p><p>- Genre: 2D Sidescroller building strategy game</p><p>- Medieval setting</p><p>- World is invaded by slimes</p><p>- Threatening atmosphere</p><p>- Sounds should sound realistic and match the visual style</p><p>- Variation of sounds, as there are not very many different ones<br/></p></body></html>", nullptr));
         projectDescribtionLabel_3->setProperty("styleType", QVariant(QCoreApplication::translate("Projects", "projectDescribtion", nullptr)));
         pushButton_3_1->setText(QCoreApplication::translate("Projects", "YouTube", nullptr));
         pushButton_3_2->setText(QCoreApplication::translate("Projects", "Documentation", nullptr));
@@ -867,7 +867,7 @@ public:
         projectNameLabel_6->setProperty("styleType", QVariant(QCoreApplication::translate("Projects", "projectName", nullptr)));
         dateLabel_6->setText(QCoreApplication::translate("Projects", "Feb 2022 - Feb 2022", nullptr));
         dateLabel_6->setProperty("styleType", QVariant(QCoreApplication::translate("Projects", "projectDate", nullptr)));
-        projectDescribtionLabel_6->setText(QCoreApplication::translate("Projects", "<html><head/><body><p>Brackeys Game Jam 2022.1:<br/><br/>Topic: It is not real<br/>Genre: Horror<br/>Engine: Unity<br/>Team size: 8<br/>Project duration: 1 Woche<br/></p></body></html>", nullptr));
+        projectDescribtionLabel_6->setText(QCoreApplication::translate("Projects", "<html><head/><body><p>Brackeys Game Jam 2022.1:<br/><br/>Topic: It is not real</p><p>Genre: Horror</p><p>Engine: Unity</p><p>Team size: 8</p><p>Project duration: 1 Woche<br/></p></body></html>", nullptr));
         projectDescribtionLabel_6->setProperty("styleType", QVariant(QCoreApplication::translate("Projects", "projectDescribtion", nullptr)));
         pushButton_6_1->setText(QCoreApplication::translate("Projects", "YouTube", nullptr));
         pushButton_6_2->setText(QCoreApplication::translate("Projects", "itch.io", nullptr));
